@@ -10,7 +10,7 @@ export default function ProductPage() {
           <Image
             alt="ecommerce"
             className="lg:w-1/2 w-full lg:h-auto h-96  object-fill  rounded"
-            src="/ProductImg.png"
+            src="/productImg.png"
             width={200}
             height={200}
           />
