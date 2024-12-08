@@ -249,7 +249,7 @@ function CHeckoutPage() {
                   <p className="text-[#757575] text-[14px] mt-1 ">₹ 3 895.00</p>
                 </div>
               </div>
-              <div className="md:pl-3 md:flex gap-5 items-strech py-8 md:py-10 lg:py-8 ">
+              <div className="md:pl-3 -mt-8 md:flex gap-5 items-strech py-8 md:py-10 lg:py-8 ">
                 <div className="md:w-[300px]  w-full md:mb-0 mb-5">
                   <img
                     src="/person2.jpg"
