@@ -4,17 +4,17 @@ import { Button } from "@/components/ui/button";
 
 function HeroSection() {
   return (
-    <div className="px-10 pb-4">
-      <div className="font-[500 leading-[16px] flex flex-col items-center gap-2">
+    <div className="px10 pb-4">
+      <div className="font-[500] px-10  bg-500 py-3 leading-[16px] flex flex-col items-center gap-2">
         <div className="text-[15px]">Hello Nike App</div>
         <div className="text-[11px]  sm:text-start text-center font-[400] leading-24px">
           Download the app to access everything Nike.
           <span className="underline font-[500]"> Get Your Great</span>
         </div>
       </div>
-      <div className="max-w-[1344px] max-h-[700px] mt-4">
+      <div className="max-w-[1344px] px-10 max-h-[700px] mt-4">
         <Image
-          src="/heroImg.jpg"
+          src="/heroSectionImg.png"
           width={1344}
           height={1334}
           alt=" best-shoes"

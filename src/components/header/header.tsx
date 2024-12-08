@@ -18,7 +18,7 @@ function Header() {
           <div className=" hidden sm:flex px-5 md:px-10 justify-between  py-4 items-center">
             <div>
               <Link href="/">
-                <Image src="/vector.jpg" alt="img" width={19} height={19} />
+                <Image src="/logo.png" alt="img" width={19} height={19} />
               </Link>
             </div>
             <div className=" lg:block hidden leading-[26px] text-[13px] relative left-24 font-[500]">
