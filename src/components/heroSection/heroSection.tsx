@@ -20,15 +20,17 @@ function HeroSection() {
           alt=" best-shoes"
         />
       </div>
-      <div className='text-[15px] gap-6 my-12 font-[500] flex flex-col  items-center'>
+      <div className="text-[15px] gap-6 my-12 px-4 sm:px-0 font-[500] flex flex-col  items-center">
         <div>First Look</div>
-        <h2 className='leading-[60px] text-[56px] '>Nike Air Max Pulse</h2>
-        <p className='font-[400] max-w-[511px]'>
+        <h2 className="leading-[60px] text-[56px] text-center sm:text-start ">
+          Nike Air Max Pulse
+        </h2>
+        <p className="font-[400] max-w-[511px] text-center sm:text-start">
           Extreme comfort. Hyper durable. Max volume. Introducing the Air Max
           Pulse —designed to push you past your limits and help you go to the
           max.
         </p>
-        <div className='flex gap-2'>
+        <div className="flex gap-2">
           <Button variant="default">Notify Me</Button>
           <Button variant="default">Shop Air Max</Button>
         </div>
