@@ -7,13 +7,13 @@ function HomePageImges() {
       <div className=" text-[22px] mb-5">The Essentials</div>
       <div className="grid md:grid-cols-2  justify-items-center lg:grid-cols-3 gap-4">
         <div className="">
-          <Image src="/img1.jpg" width={600} height={600} alt="img" />
+          <Image src="/shirt.png" width={600} height={600} alt="img" />
         </div>
         <div className="">
-          <Image src="/img2.jpg" width={600} height={600} alt="img" />
+          <Image src="/shoes.png" width={600} height={600} alt="img" />
         </div>
         <div className="">
-          <Image src="/img3.jpg" width={600} height={600} alt="img" />
+          <Image src="/bags.png" width={600} height={600} alt="img" />
         </div>
       </div>
       <div className="flex lg:flex-nowrap flex-wrap gap-x-28 gap-y-14 items-center  lg:gap-28 justify-center py-24">
