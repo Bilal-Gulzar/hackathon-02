@@ -1,101 +1,136 @@
+import HeroSection from "@/components/heroSection/heroSection";
+import LeftArrowSvg from "@/components/svg/leftArrowSvg";
+import RigthArrowSvg from "@/components/svg/rigthArrowSvg";
 import Image from "next/image";
+import { Button } from "@/components/ui/button";
+import Homecart from "@/components/homeCart/homecart";
+import { Images } from "lucide-react";
+import HomePageImges from "@/components/homethreeImges/homePageImges";
+
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              src/app/page.tsx
-            </code>
-            .
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
-
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+    <div>
+      {/* herosection */}
+      <HeroSection />
+      <section className="px-4 sm:ps-10 py-7">
+        <div className="font-[500]  flex justify-between items-center pe-10 mb-5 ">
+          <div className=" text-[22px]">Best of Air Max</div>
+          <div className="hidden sm:flex gap-3 items-center">
+            <div className="text-[15px]">Shop</div>
+            <div className="flex gap-3">
+              <div className="w-[48px] h-[48px] rounded-full bg-500 flex justify-center items-center">
+                <RigthArrowSvg />
+              </div>
+              <div className="w-[48px] h-[48px] rounded-full bg-500 flex justify-center items-center">
+                <LeftArrowSvg />
+              </div>
+            </div>
+          </div>
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <div className="flex flex-col sm:flex-row gap-6 sm:gap-4  items-center sm:overflow-hidden ">
+          <div className="shrink-0  sm:w-[380px] h[441.36px]">
+            <div className="bg-500">
+              <Image src="/image1.jpg" width={441} height={441} alt="shoes" />
+            </div>
+            <div className="font-[500] flex pe-2 mt-6 justify-between text-[15px]">
+              <div>Nike Air Max Pulse </div>
+              <div>₹ 13 995</div>
+            </div>
+            <div className="font-[500] text-[15px] mt-1.5">
+              <div className="text-[#757575]">Women's Shoes</div>
+            </div>
+          </div>
+          <div className=" shrink-0 sm:w-[380.36px] ">
+            <div className="bg-500">
+              <Image src="/image1.jpg" width={441} height={441} alt="shoes" />
+            </div>
+            <div className="font-[500] flex pe-2 mt-6 justify-between text-[15px]">
+              <div>Nike Air Max Pulse </div>
+              <div>₹ 13 995</div>
+            </div>
+            <div className="font-[500] text-[15px] mt-1.5">
+              <div className="text-[#757575]">Women's Shoes</div>
+            </div>
+          </div>
+          <div className="shrink-0 sm:w-[380px] ">
+            <div className="bg-500">
+              <Image src="/image2.jpg" width={441} height={441} alt="shoes" />
+            </div>
+            <div className="font-[500] flex pe-2 mt-6 justify-between text-[15px]">
+              <div>Nike Air Max Pulse </div>
+              <div>₹ 13 995</div>
+            </div>
+            <div className="font-[500] text-[15px] mt-1.5">
+              <div className="text-[#757575]">Women's Shoes</div>
+            </div>
+          </div>
+          <div className="shrink-0 sm:w-[380px] ">
+            <div className="bg-500">
+              <Image src="/image1.jpg" width={441} height={441} alt="shoes" />
+            </div>
+            <div className="font-[500] flex pe-2 mt-6 justify-between text-[15px]">
+              <div>Nike Air Max Pulse </div>
+              <div>₹ 13 995</div>
+            </div>
+            <div className="font-[500] text-[15px] mt-1.5">
+              <div className="text-[#757575]">Women's Shoes</div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="px-10 pt-24">
+        <div className="text-[15px] mb-5 font-[500]">Featured</div>
+        <div className="max-w-[1344px] ">
           <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
+            src="/manwalk.jpg"
+            width={1344}
+            height={1344}
+            alt="man while walking"
           />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        </div>
+      </section>
+      <section>
+        <div className="text-[15px] px-5 gap-6 my-12 font-[500] flex flex-col  items-center">
+          <h2 className="md:leading-[60px] text-center text-4xl md:text-[56px] ">
+            STEP INTO WHAT FEELS GOOD
+          </h2>
+          <p className="font-[400] max-w-[511px] text-center">
+            Cause everyone should know the feeling of running in that perfect
+            pair.
+          </p>
+          <div className="">
+            <Button variant="default">Find Your Shoe</Button>
+          </div>
+        </div>
+      </section>
+      <div>
+        <Homecart />
+      </div>
+      <section className="mt-24 px-10">
+        <div className=" text-[22px] mb-5">Don't Miss</div>
+        <div className="max-w-[1344px]">
           <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
+            src="/FullImg.jpg"
+            width={1344}
+            height={1344}
+            alt="man while walking"
           />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
+          <div className="text-[15px] px-5 gap-6 my-12 font-[500] flex flex-col  items-center">
+            <h2 className="md:leading-[60px] text-center text-4xl md:text-[56px] ">
+              FLIGHT ESSENTIALS
+            </h2>
+            <p className="font-[400] max-w-[511px] text-center">
+              Your built-to-last, all-week wears—but with style only Jordan
+              Brand can deliver.
+            </p>
+            <div className="">
+              <Button variant="default">Shop</Button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <HomePageImges/>
     </div>
   );
 }
