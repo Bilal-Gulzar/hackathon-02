@@ -31,7 +31,7 @@ export default function Home() {
         <div className="flex flex-col sm:flex-row gap-6 sm:gap-4  items-center sm:overflow-hidden ">
           <div className="shrink-0  sm:w-[380px] h[441.36px]">
             <div className="bg-500">
-              <Image src="/image1.jpg" width={441} height={441} alt="shoes" />
+              <Image src="/shoe2.png" width={441} height={441} alt="shoes" />
             </div>
             <div className="font-[500] flex pe-2 mt-6 justify-between text-[15px]">
               <div>Nike Air Max Pulse </div>
@@ -43,7 +43,7 @@ export default function Home() {
           </div>
           <div className=" shrink-0 sm:w-[380.36px] ">
             <div className="bg-500">
-              <Image src="/image1.jpg" width={441} height={441} alt="shoes" />
+              <Image src="/shoe2.png" width={441} height={441} alt="shoes" />
             </div>
             <div className="font-[500] flex pe-2 mt-6 justify-between text-[15px]">
               <div>Nike Air Max Pulse </div>
@@ -55,7 +55,7 @@ export default function Home() {
           </div>
           <div className="shrink-0 sm:w-[380px] ">
             <div className="bg-500">
-              <Image src="/image2.jpg" width={441} height={441} alt="shoes" />
+              <Image src="/shoe1.png" width={441} height={441} alt="shoes" />
             </div>
             <div className="font-[500] flex pe-2 mt-6 justify-between text-[15px]">
               <div>Nike Air Max Pulse </div>
@@ -67,7 +67,7 @@ export default function Home() {
           </div>
           <div className="shrink-0 sm:w-[380px] ">
             <div className="bg-500">
-              <Image src="/image1.jpg" width={441} height={441} alt="shoes" />
+              <Image src="/shoe1.png" width={441} height={441} alt="shoes" />
             </div>
             <div className="font-[500] flex pe-2 mt-6 justify-between text-[15px]">
               <div>Nike Air Max Pulse </div>
