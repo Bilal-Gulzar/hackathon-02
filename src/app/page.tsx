@@ -65,7 +65,7 @@ export default function Home() {
               <div className="text-[#757575]">Women's Shoes</div>
             </div>
           </div>
-          <div className="shrink-0 sm:w-[380px] ">
+          <div className="shrink-0 sm:w-[380px] sm:block hidden ">
             <div className="bg-500">
               <Image src="/shoe1.png" width={441} height={441} alt="shoes" />
             </div>

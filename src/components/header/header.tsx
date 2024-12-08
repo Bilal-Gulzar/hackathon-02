@@ -121,14 +121,14 @@ function Header() {
           </div>
         </div>
       ) : (
-        <div className=" px-10 lg:px-0 lg:ps-10 flex justify-between items-center mt-5">
+        <div className=" px-5 sm:px-10 lg:px-0 lg:ps-10 flex justify-between items-center mt-5">
           <div>
             <Link href="/">
               <Image src="/Frame.jpg" alt="img" width={70} height={70} />
             </Link>
           </div>
           <div className="flex items-center gap-8">
-            <div>000 800 100 9538</div>
+            <div  className='sm:block hidden'>000 800 100 9538</div>
             <div>
               <SmsSvg />
             </div>

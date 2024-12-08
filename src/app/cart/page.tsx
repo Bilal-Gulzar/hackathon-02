@@ -13,9 +13,9 @@ function CartPage() {
             <div className="border-b pb-8 bg-500">
               <div className="flex flex-col relative top-4 left-6 justify-center">
                 <h1 className=" text-[13px] font-[500]">Free Delivery</h1>
-                <h1 className="font-[400] text-[13px]">
+                <h1 className="font-[400] text-[13px] flex">
                   Applies to orders of ₹ 14 000.00 or more.
-                  <span className="underline ml-5">View details</span>
+                  <span className="underline ml-5 sm:block hidden">View details</span>
                 </h1>
               </div>
             </div>

@@ -118,7 +118,7 @@ export default function ContactPage() {
             </p>
           </div>
         </div>
-        <div className="sm:mt-0 mt-20  sm:col-span-5 md:col-span-4 md:px-0 px-3 border-l flex flex-col gap-16">
+        <div className="sm:mt-0 mt-20  sm:col-span-5 md:col-span-4 md:px-0 px-3 sm:border-l flex flex-col gap-16">
           <div className="flex flex-col items-center gap-5">
             <h3 className="text-[28px] font-[500] text-center">CONTACT US</h3>
             <div>

@@ -8,7 +8,7 @@ import Link from 'next/link';
 export default function AllProducts() {
   return (
     <div>
-      <div className="grid md:grid-cols-12 w-full  px-10">
+      <div className="grid md:grid-cols-12 w-full px-5  sm:px-10">
         <div className="col-span-3 w-full md:block hidden">
           <div className="font-[500] text-[24px] pb-5">New (500)</div>
           <ul className="text-[15px] font-[500] flex flex-col gap-4 pb-12">
