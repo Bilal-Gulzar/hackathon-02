@@ -21,9 +21,9 @@ function Header() {
                 <Image src="/logo.png" alt="img" width={19} height={19} />
               </Link>
             </div>
-            <div className=" lg:block hidden leading-[26px] text-[13px] relative left-24 font-[500]">
+            {/* <div className=" lg:block hidden leading-[26px] text-[13px] relative left-24 font-[500]">
               Skip to main content
-            </div>
+            </div> */}
             <div className="flex justify-center  items-center gap-[15.38px] font-[500] text-[14px]">
               <div className="border-r border-black pe-2.5">Find a Store</div>
               <Link href="/contact-us">
