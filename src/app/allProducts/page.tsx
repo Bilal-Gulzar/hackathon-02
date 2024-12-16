@@ -9,7 +9,7 @@ export default function AllProducts() {
   return (
     <div>
       <div className="grid md:grid-cols-12 w-full px-5  sm:px-10">
-        <div className="col-span-3 w-full md:block hidden">
+        <div className="col-span-3 w-full md:block hidden pe-14">
           <div className="font-[500] text-[24px] pb-5">New (500)</div>
           <ul className="text-[15px] font-[500] flex flex-col gap-4 pb-12">
             <li>Shoes</li>
@@ -23,9 +23,9 @@ export default function AllProducts() {
             <li>Socks</li>
             <li>Accessories & Equipment</li>
           </ul>
-          <div className="border-gray-300 border-y py-4 ">
-            <div className="flex justify-between items-center pe-14">
-              <p className="pb-5"> Gender</p>
+          <div className="border-gray-300 border-y py-4">
+            <div className="flex justify-between  mb-5 items-center  ">
+              <p> Gender</p>
               <div>
                 <UpSvg />
               </div>
@@ -46,8 +46,8 @@ export default function AllProducts() {
             </ul>
           </div>
           <div className="py-4">
-            <div className="flex justify-between items-center pe-14">
-              <p className="pb-5"> Kids</p>
+            <div className="flex justify-between mb-5 items-center ">
+              <p> Kids</p>
               <div>
                 <UpSvg />
               </div>
@@ -64,8 +64,8 @@ export default function AllProducts() {
             </ul>
           </div>
           <div className="py-4 border-t border-gray-300">
-            <div className="flex justify-between items-center pe-14">
-              <p className="pb-5"> Shop By Price</p>
+            <div className="flex justify-between mb-5 items-center ">
+              <p> Shop By Price</p>
               <div>
                 <UpSvg />
               </div>

@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from 'next/image';
 import { Button } from "@/components/ui/button";
+import Link from 'next/link';
 
 function HeroSection() {
   return (
@@ -31,8 +32,14 @@ function HeroSection() {
           max.
         </p>
         <div className="flex gap-2">
+            <Link href="/allProducts">
+
           <Button variant="default">Notify Me</Button>
+          </Link>
+            <Link href="/allProducts">
+
           <Button variant="default">Shop Air Max</Button>
+          </Link>
         </div>
       </div>
     </div>

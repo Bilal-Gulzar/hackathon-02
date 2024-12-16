@@ -4,7 +4,7 @@ import React from 'react'
 function CHeckoutPage() {
   return (
     <div>
-      <div className="grid sm:grid-cols-12 sm:gap-14 mt-20  max-w-[800px] mx-auto">
+      <div className="grid sm:grid-cols-12 pb-20 sm:pb-0 sm:gap-14 mt-14 lg:mt-20  max-w-[800px] mx-auto">
         <div className="sm:col-span-6 px-5">
           <div>
             <h3 className="text-[21px] font-[500]">

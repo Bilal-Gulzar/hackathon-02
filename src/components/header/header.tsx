@@ -101,8 +101,13 @@ function Header() {
               <div className="sm:hidden">
                 <SearchSvg />
               </div>
-              <div>
+              <div className="lg:block hidden">
                 <HeartSvg />
+              </div>
+              <div className="lg:hidden">
+                <Link href="/login">
+                  <LoginSvg />
+                </Link>
               </div>
               {path === "/cart" ? (
                 <Link href="/cart">
@@ -128,7 +133,7 @@ function Header() {
             </Link>
           </div>
           <div className="flex items-center gap-8">
-            <div  className='sm:block hidden'>000 800 100 9538</div>
+            <div className="sm:block hidden">000 800 100 9538</div>
             <div>
               <SmsSvg />
             </div>

@@ -4,8 +4,8 @@ import RigthArrowSvg from "@/components/svg/rigthArrowSvg";
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import Homecart from "@/components/homeCart/homecart";
-import { Images } from "lucide-react";
 import HomePageImges from "@/components/homethreeImges/homePageImges";
+import Link from "next/link";
 
 
 export default function Home() {
@@ -100,7 +100,9 @@ export default function Home() {
             pair.
           </p>
           <div className="">
-            <Button variant="default">Find Your Shoe</Button>
+            <Link href="/allProducts">
+              <Button variant="default">Find Your Shoe</Button>
+            </Link>
           </div>
         </div>
       </section>
@@ -125,12 +127,14 @@ export default function Home() {
               Brand can deliver.
             </p>
             <div className="">
+            <Link href="/allProducts">
               <Button variant="default">Shop</Button>
+              </Link>
             </div>
           </div>
         </div>
       </section>
-      <HomePageImges/>
+      <HomePageImges />
     </div>
   );
 }

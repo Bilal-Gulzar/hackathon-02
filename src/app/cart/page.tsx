@@ -7,13 +7,13 @@ import Link from 'next/link';
 function CartPage() {
   return (
     <div>
-      <div className="container mx-auto mt-10">
-        <div className="sm:flex  my-10">
+      <div className="container mx-auto lg:mt-10">
+        <div className="sm:flex mb-10 lg:my-10">
           <div className="  w-full  sm:w-3/4 lg:w-[900px] px-5 py-10">
-            <div className="border-b pb-8 bg-500">
+            <div className="border-b pb-8 bg-500 ">
               <div className="flex flex-col relative top-4 left-6 justify-center">
                 <h1 className=" text-[13px] font-[500]">Free Delivery</h1>
-                <h1 className="font-[400] text-[13px] flex">
+                <h1 className="font-[400] text-[13px] flex pe-10 sm:pe-0">
                   Applies to orders of ₹ 14 000.00 or more.
                   <span className="underline ml-5 md:block hidden">View details</span>
                 </h1>

@@ -18,18 +18,18 @@ function Footer() {
       <div>
         <div className="flex md:flex-row  flex-col  items-center md:items-baseline md:gap-3 lg:gap-0  justify-between px-14">
           <div className="flex lg:flex-nowrap flex-wrap gap-x-28 md:gap-x-24 gap-y-14 items-baseline   lg:gap-28 justify-center py-24">
-            <div className="text-[10px] flex flex-col items-center md:items-start gap-8 text-[#FFFFFF] font-[400]">
+            <div className="text-[10px] flex flex-col items-center sm:items-start gap-8 text-[#FFFFFF] font-[400]">
               <h2>Find A Store</h2>
-              <ul className="items-center md:items-start flex flex-col  gap-5">
+              <ul className="items-center sm:items-start flex flex-col  gap-5">
                 <li>Become A Member</li>
                 <li>Sign Up for Email</li>
                 <li>Send Us Feedback</li>
                 <li>Student Discounts</li>
               </ul>
             </div>
-            <div className="text-[10px] flex flex-col items-center md:items-start gap-8 text-[#FFFFFF] font-[400]">
+            <div className="text-[10px] flex flex-col items-center sm:items-start gap-8 text-[#FFFFFF] font-[400]">
               <h2>Get Help</h2>
-              <ul className="items-center text-[#7E7E7E] md:items-start flex flex-col  gap-5">
+              <ul className="items-center text-[#7E7E7E] sm:items-start flex flex-col  gap-5">
                 <li>Order Status</li>
                 <li>Delivery</li>
                 <li>Returns</li>
@@ -38,9 +38,9 @@ function Footer() {
                 <li>Contact Us On All Other Inquiries</li>
               </ul>
             </div>
-            <div className="text-[10px] flex flex-col items-center md:items-start gap-8 text-[#FFFFFF] font-[400]">
+            <div className="text-[10px] flex flex-col items-center sm:items-start gap-8 text-[#FFFFFF] font-[400]">
               <h2>About Nike</h2>
-              <ul className="items-center text-[#7E7E7E] md:items-start flex flex-col  gap-5">
+              <ul className="items-center text-[#7E7E7E] sm:items-start flex flex-col  gap-5">
                 <li>News</li>
                 <li>Careers</li>
                 <li>Investors</li>
